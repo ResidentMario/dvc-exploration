@@ -1,0 +1,11 @@
+md5: 0e314a4476f561e5e375881da2d4b8e4
+cmd: head data/train.csv > data/train_head.csv
+deps:
+- md5: f3eaeafb90cde88b238ebc8dfd4501c5
+  path: data/train.csv
+outs:
+- md5: e502cb16c02f3572bb68adadcfc50463
+  path: data/train_head.csv
+  cache: true
+  metric: false
+  persist: false
