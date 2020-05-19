@@ -1,0 +1,4 @@
+[core]
+    remote = spell-share
+['remote "spell-share"']
+    url = s3://spell-share/aleksey/dvc-exploration
